@@ -14,10 +14,8 @@ class Dog
   end
 
   def self.all
-    if @all
-      @all.each do |dog|
-        puts dog.name
-      end
+    @@all.each do |dog|
+      puts dog.name
     end
   end
 
